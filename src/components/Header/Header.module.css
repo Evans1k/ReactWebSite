@@ -1,0 +1,7 @@
+.header {
+    grid-area: header;
+    background-color: gray;
+}
+#hat{
+    width: 40px;
+}

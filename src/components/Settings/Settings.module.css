@@ -1,0 +1,4 @@
+.chatContent{
+    grid-area: chatContent;
+    background-color: yellow;
+}

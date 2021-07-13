@@ -1,0 +1,19 @@
+.chatContent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+            "allChat headerChat"
+            "allChat messagesFromChat";
+}
+.allChat  { grid-area: allChat ; padding: 10px;}
+
+.separateChat.activeSeparateChat{
+    color: wheat;
+}
+
+.headerChat { grid-area: headerChat; padding: 10px; }
+.headerChat .headerChatForSeparateChat{}
+
+.messagesFromChat { grid-area: messagesFromChat; padding: 10px;}
+.messagesFromChat .messagesFromSeparateChat{}

@@ -1,0 +1,7 @@
+.navMenu {
+    grid-area: navMenu;
+    background-color: bisque;
+}
+.itemMenu{
+    color: #9c3939;
+}
