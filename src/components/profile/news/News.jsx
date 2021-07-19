@@ -1,20 +1,10 @@
-import classes from './MyPosts.module.css';
-function MyPosts() {
+import classes from './News.css';
+function News() {
     return (
-        <div className={classes.allOldestPost}>
-            <div className={classes.tittleOfPosts}>
-                My posts
-            </div>
-            <textarea></textarea>
-            <button>Add post</button>
-            <button>Deleted post</button>
-            <div className={classes.postItem}>
-                <img src={'https://www.amsj.com.au/wp-content/uploads/2020/05/AdobeStock_327556002-990x594.png'}/>
-
-                post 1</div>
-            <div className={classes.postItem}>>post 2</div>
+        <div className={classes.news}>
+            News
         </div>
 
 )
 }
-export default MyPosts;
+export default News;

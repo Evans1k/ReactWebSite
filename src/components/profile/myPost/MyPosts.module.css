@@ -1,12 +1,11 @@
-.postItem img{
-    width: 50px;
-}
+
 .allOldestPost{
     color: darkblue;
+    padding: 10px;
 }
 .tittleOfPosts{
 
 }
-.postItem {
-
+.separatePosts{
+    margin-top: 10px;
 }

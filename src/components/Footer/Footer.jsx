@@ -1,10 +1,10 @@
-import classes from '../componentsForCSS/Footer.module.css';
+import classes from './Footer.module.css';
 
 function Footer() {
     return(
-        <div className={classes.footer}>
+        <footer className={classes.gridFooter}>
 
-        </div>
+        </footer>
     )
 }
 export default Footer;

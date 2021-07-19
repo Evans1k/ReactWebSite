@@ -1,5 +1,5 @@
-import classes from './Chat.module.css';
-function Chat() {
+import classes from './Settings.module.css';
+function Settings() {
     return(
         <div>
         <div>Contant</div>
@@ -7,4 +7,4 @@ function Chat() {
         </div>
     )
 }
-export default Chat;
+export default Settings;

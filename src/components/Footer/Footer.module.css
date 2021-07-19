@@ -1,0 +1,4 @@
+.gridFooter{
+    grid-area: footer;
+    background-color: palegoldenrod;
+}

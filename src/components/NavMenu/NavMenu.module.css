@@ -1,7 +1,11 @@
-.navMenu {
-    grid-area: navMenu;
+.gridNavMenu {
+    grid-area: navigationMenu;
     background-color: bisque;
+    padding: 25px   ;
 }
-.itemMenu{
-    color: #9c3939;
+.itemMenu a {
+    text-decoration: none;
+}
+.itemMenu a.active{
+    color: white;
 }

@@ -1,4 +1,4 @@
-.header {
+.gridHeader {
     grid-area: header;
     background-color: gray;
 }

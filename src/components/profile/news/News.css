@@ -1,12 +1,4 @@
-.postItem img{
-    width: 50px;
-}
-.allOldestPost{
-    color: darkblue;
-}
-.tittleOfPosts{
-
-}
-.postItem {
-
+.news{
+    grid-area: news;
+    color: red;
 }
